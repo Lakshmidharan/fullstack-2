@@ -49,11 +49,11 @@ return(
 }
 function Msg({ name,url,rating,summary}) {
   return (
-    <div>
+    <div> 
       <h1 className="moviename"> Movie Name:{name}</h1>
       <img className="pic" src= {url}/>
       <h1 className="rate">Rating:{rating}</h1>
       <h3 className="notes"> Summary:{summary}</h3>
-    </div>
+    </div> 
   );
 }
